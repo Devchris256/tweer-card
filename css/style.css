@@ -1,0 +1,85 @@
+:root{
+  --font:'Poppins', sans-serif;
+  --white:#FFFFFF;
+  --black:#000000;
+  --gray:#6E767D;
+  --pink:#F72381;
+  --blue:#2797DD;
+}
+
+*{
+  /* outline: auto; */
+}
+
+body{
+  margin: 0;
+  font-family: var(--font);
+  background-color: var(--black);
+  color: var(--white);
+}
+.tweed p{
+  line-height: 28px;
+}
+
+.tweed{
+  display: flex;
+  align-items: center;
+  block-size: 768px;
+}
+
+.wrapper{
+  margin: auto;
+  border: 1px solid var(--gray);
+}
+
+.tweed-content{
+  display: flex;
+  align-items:flex-start;
+  inline-size: 652px;
+  margin: 24px;
+  gap: 16px;
+}
+
+.usuario{
+  display: flex;
+  gap:16px;
+  margin-block-end: 8px;
+}
+
+.usuario p{
+  margin:0;
+  font-weight: 700;
+}
+
+.usuario p:nth-child(2){
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.contenido a{
+  color: var(--blue)
+}
+
+.card{
+  display: flex;
+  margin-block-end:16px;
+}
+
+.card-content{
+  padding-inline-start: 16px;
+  border: 1px solid var(--gray);
+  border-radius: 0px 24px 24px 0px;
+}
+
+.card-content p:nth-child(2){
+  color: var(--gray);
+}
+
+.reaccion{
+  display: flex;
+  gap: 8px;
+}
+
+.reaccion p{
+  color: var(--gray);
+}
